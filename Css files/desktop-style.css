@@ -4,4 +4,10 @@
     gap: 20px;        
     flex-wrap: wrap;  
     justify-content: space-between;
+    border: 1px solid;
+    padding-left: 45px;
+  }
+
+  .desktop-nav > a{
+    padding: 5px;
   }

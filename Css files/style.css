@@ -1,8 +1,14 @@
+body {
+  background-color: #fefef6;
+}
+
 .header-display {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-right: 1px solid;
 }
 
 /*to remove blue and underscore from links a*/
@@ -13,7 +19,14 @@ a {
 
 .main-nav {
 display: flex;
-gap: 20px; 
+}
+
+/* every element of type a in class main-nav */
+.main-nav > a 
+{
+  border-left: 1px solid;
+  padding: 10px;
+  margin: auto;
 }
 
 .desktop-nav {
