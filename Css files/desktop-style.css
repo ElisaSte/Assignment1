@@ -1,0 +1,7 @@
+/*Visa meny i desktop*/
+  .desktop-nav {
+    display: flex;
+    gap: 20px;        
+    flex-wrap: wrap;  
+    justify-content: space-between;
+  }
