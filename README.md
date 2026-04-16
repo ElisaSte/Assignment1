@@ -7,3 +7,12 @@ Länk: https://www.oatly.com/sv-se
 Vi har valt start sidan.
 
 Namn: Hannes, Elisa
+
+
+
+
+<!-- Hannes TODO -->
+<!-- [] Box container -->
+
+<!-- Elisa TODO -->
+<!-- [] Header -->
