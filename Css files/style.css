@@ -5,6 +5,17 @@
   padding: 10px 20px;
 }
 
+/*to remove blue and underscore from links a*/
+a {
+  text-decoration: none;
+  color: black;         
+}
+
+.main-nav {
+display: flex;
+gap: 20px; 
+}
+
 .desktop-nav {
   display: none; 
 }
@@ -52,11 +63,5 @@ body{
     content: "🏠";
   }
 
-  /*Visa meny i desktop*/
-  .desktop-nav {
-    display: flex;
-    gap: 20px;        
-    flex-wrap: wrap;  
-    justify-content: space-between;
-  }
+  
 }
