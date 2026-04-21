@@ -62,14 +62,18 @@ a {
 
 .card-grid {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   grid-template-areas:
     "box-1"
     "box-2"
-    "box-3"1fr
+    "box-3"
     "box-4"
     "box-5"
     "box-6";
+}
+
+.look-book-refil {
+  display: block;
 }
 
 .menu-icon::before {
@@ -91,6 +95,10 @@ body {
   /* Byt ikon */
   .menu-icon::before {
     content: "🏠";
+  }
+
+  .look-book-refil {
+    display: none;
   }
 
   .card-grid {
