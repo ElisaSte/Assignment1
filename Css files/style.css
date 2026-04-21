@@ -133,3 +133,50 @@ body {
       "box-5 box-5 box-2 box-2"
   }
 }
+
+.icon-footer{
+display: flex;
+justify-content: center;
+width: 100%; 
+}
+
+.icon-footer > a{
+  border: 1px solid;
+  padding: 10px;
+}
+
+
+
+.link-footer {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+text-align: center;
+gap: 0;
+}
+
+.top-row {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.link-footer .top-row > a{
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center; 
+}
+
+.link-footer > a{
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.full {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+  .changing-footer > a{
+  border: 1px solid;
+  padding: 10px;
+  }
