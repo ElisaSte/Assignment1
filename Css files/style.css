@@ -80,8 +80,10 @@ a {
 }
 
 .menu-icon::before {
-  content: "☰";
-  /* mobil*/
+  display: flex;
+  align-items: center;
+  font-family: 'Material Icons';
+  content: "menu";
   font-size: 30px;
 }
 
@@ -97,7 +99,13 @@ body {
 
   /* Byt ikon */
   .menu-icon::before {
-    content: "🏠";
+    font-family: 'Material Icons';
+    content: "home";
+    font-size: 30px;
+    border-right: 1px solid;
+    display: flex;
+    padding: 7.5px;
+    align-items: center;
   }
   /*Visa meny i desktop*/
   .desktop-nav {
