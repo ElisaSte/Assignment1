@@ -14,46 +14,45 @@ body {
 /*to remove blue and underscore from links a*/
 a {
   text-decoration: none;
-  color: black;         
+  color: black;
 }
 
 .main-nav {
-display: flex;
+  display: flex;
 }
 
 /* every element of type a in class main-nav */
-.main-nav > a 
-{
+.main-nav>a {
   border-left: 1px solid;
   padding: 10px;
   margin: auto;
 }
 
 .desktop-nav {
-  display: none; 
+  display: none;
 }
 
 .square {
-    margin: 20px; 
-    border: 2px solid black;
-    display: inline-block; 
-    padding: 5px;
+  margin: 20px;
+  border: 2px solid black;
+  display: inline-block;
+  padding: 5px;
 
-     display: flex;             
-  flex-direction: column;     
-  justify-content: space-between;
-  align-items:flex-start;
-  box-sizing: border-box;
-  }
-
-  .container {
   display: flex;
-  gap: 20px;        
-  flex-wrap: wrap;  
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
- .show-more {
+.show-more {
   background-image: url(../Pictures_from_website/Backgrounds/Show_More_Background_Picture.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,11 +60,29 @@ display: flex;
   height: 200px;
 }
 
-.menu-icon::before {
-  content: "☰"; /* mobil*/
-  font-size: 30px; 
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-areas:
+    "box-1"
+    "box-2"
+    "box-3"1fr
+    "box-4"
+    "box-5"
+    "box-6";
 }
-body{
+
+.menu-icon::before {
+  content: "☰";
+  /* mobil*/
+  font-size: 30px;
+}
+
+.square img {
+  width: 100%;
+}
+
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -76,5 +93,11 @@ body{
     content: "🏠";
   }
 
-  
+  .card-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "box-1 box-1 box-2 box-2"
+      "box-3 box-4 box-2 box-2"
+      "box-5 box-5 box-2 box-2"
+  }
 }
