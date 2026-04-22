@@ -45,11 +45,18 @@ a {
 }
 
 .show-more {
+  
   background-image: url(../Pictures_from_website/Backgrounds/Show_More_Background_Picture.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 40px;
   height: 200px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
 }
 
 .card-grid {
@@ -112,6 +119,30 @@ a {
   font-family: "Caveat", cursive;
   font-size: 1.2rem;
   font-style: normal;
+}
+
+.button-read-more {
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  font-style: normal;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.button-read-more:hover, .button-show-more:hover {
+  color: #888;
+}
+
+.button-show-more {
+  flex: 0 0 auto;
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  font-style: normal;
+  background: #000;
+  color: #fff;
+  border-radius: 1rem;
+
 }
 
 .item img {
