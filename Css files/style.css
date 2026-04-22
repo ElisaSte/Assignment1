@@ -105,17 +105,21 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
   grid-template-areas:
-  "arrowup faq faq ."
-  ". sustainability sustainability ."
+  "arrowup faq faq faq"
+  "sustainability sustainability sustainability sustainability"
   "careers careers forinvestors forinvestors"
   "contact contact legal legal"
   "privacypolicy privacypolicy cookie cookie";
 }
+
 .footer-items{
- 
+ border: 1px solid;
+ padding: 1px;
+ text-align: center;
 }
 .footer-arrowup{
   grid-area: arrowup;
+  
 }
 .footer-faq{
  grid-area: faq;
