@@ -190,13 +190,15 @@ body {
   "contact contact legal legal"
   "privacypolicy privacypolicy cookie cookie";
 }
+
 .footer-items{
  border: 1px solid;
- padding: 1px;
+ padding: 2px;
  text-align: center;
 }
 .footer-arrowup{
   grid-area: arrowup;
+  
 }
 .footer-faq{
  grid-area: faq;
