@@ -154,7 +154,7 @@ a {
 }
 
 .look-book-refil {
-  display: block;
+  display: flex;
 }
 
 .menu-icon::before {
